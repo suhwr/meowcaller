@@ -4,10 +4,10 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/polymorfa/hypermeow/types"
+	"go.mau.fi/whatsmeow/types"
 
-	"github.com/purpshell/meowcaller/rtp"
-	"github.com/purpshell/meowcaller/srtp"
+	"github.com/suhwr/meowcaller/rtp"
+	"github.com/suhwr/meowcaller/srtp"
 )
 
 func peerJID() types.JID { return types.JID{User: "222222222222222", Server: types.HiddenUserServer} }

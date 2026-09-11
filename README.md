@@ -1,5 +1,5 @@
 # meowcaller
-[![Go Reference](https://pkg.go.dev/badge/github.com/purpshell/meowcaller.svg)](https://pkg.go.dev/github.com/purpshell/meowcaller)
+[![Go Reference](https://pkg.go.dev/badge/github.com/suhwr/meowcaller.svg)](https://pkg.go.dev/github.com/suhwr/meowcaller)
 
 meowcaller is a Go library for the WhatsApp Web VoIP stack. It is 100% pure GO without CGO and it has minimal dependencies. It includes the novel proprietary audio codec MLOW written and validated completely in GO. In turn, meowcaller does not rely on any native bindings and can run everywhere that GO can.
 
@@ -11,7 +11,7 @@ Discord channel: #meowcaller in the [WhiskeySockets Discord server](https://whis
 You can find the underlying spec in the [WhatsApp Calls Research Group](https://wacrg.org). Video transition behavior is cross-checked against the independently implemented [whatsapp-rust call stack](https://github.com/oxidezap/whatsapp-rust/pull/1024).
 
 ## Usage
-The [godoc](https://pkg.go.dev/github.com/purpshell/meowcaller) includes docs for all methods.
+The [godoc](https://pkg.go.dev/github.com/suhwr/meowcaller) includes docs for all methods.
 
 There's a range of examples in the [examples](/examples/) directory.
 

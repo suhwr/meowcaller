@@ -5,9 +5,9 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/purpshell/meowcaller/rtp"
-	"github.com/purpshell/meowcaller/stun"
-	"github.com/polymorfa/hypermeow/types"
+	"github.com/suhwr/meowcaller/rtp"
+	"github.com/suhwr/meowcaller/stun"
+	"go.mau.fi/whatsmeow/types"
 )
 
 func TestGroupRelayDataSelectsCaptureAddressAndCredentials(t *testing.T) {

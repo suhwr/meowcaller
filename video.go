@@ -6,7 +6,7 @@ import (
 	"os"
 	"sync"
 
-	"github.com/polymorfa/hypermeow/types"
+	"go.mau.fi/whatsmeow/types"
 )
 
 // Video in meowcaller is encoded H.264, carried as Annex-B access units (one frame's worth
@@ -69,7 +69,7 @@ type ParticipantVideoFrame struct {
 }
 
 func cloneParticipantVideoFrame(frame ParticipantVideoFrame) ParticipantVideoFrame {
-	// Source of truth: https://github.com/purpshell/meowcaller/blob/36d54857c74e45ccb08f6444a32d2afa13f20be9/datasheets/group-video-reactions.md#L32-L54
+	// Source of truth: https://github.com/suhwr/meowcaller/blob/36d54857c74e45ccb08f6444a32d2afa13f20be9/datasheets/group-video-reactions.md#L32-L54
 	frame.AccessUnit = bytes.Clone(frame.AccessUnit)
 	return frame
 }
