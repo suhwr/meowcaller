@@ -4,7 +4,7 @@ import (
 	"errors"
 	"sync"
 
-	"github.com/purpshell/meowcaller/relay"
+	"github.com/suhwr/meowcaller/relay"
 )
 
 // relayFanout runs one logical media channel across every usable relay in the
