@@ -5,7 +5,7 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/purpshell/meowcaller/rtp"
+	"github.com/suhwr/meowcaller/rtp"
 	"github.com/polymorfa/hypermeow/types"
 )
 

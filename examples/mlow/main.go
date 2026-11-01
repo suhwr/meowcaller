@@ -19,7 +19,7 @@ import (
 	"io"
 	"os"
 
-	"github.com/purpshell/meowcaller/mlow"
+	"github.com/suhwr/meowcaller/mlow"
 )
 
 const (

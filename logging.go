@@ -5,7 +5,7 @@ import (
 
 	"github.com/polymorfa/hypermeow/types"
 
-	"github.com/purpshell/meowcaller/diag"
+	"github.com/suhwr/meowcaller/diag"
 	"github.com/rs/zerolog"
 )
 

@@ -6,7 +6,7 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/purpshell/meowcaller/signaling"
+	"github.com/suhwr/meowcaller/signaling"
 	waBinary "github.com/polymorfa/hypermeow/binary"
 	"github.com/polymorfa/hypermeow/types"
 	"github.com/polymorfa/hypermeow/types/events"

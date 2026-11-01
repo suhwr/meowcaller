@@ -4,8 +4,8 @@ import (
 	"context"
 	"time"
 
-	"github.com/purpshell/meowcaller/relay"
-	"github.com/purpshell/meowcaller/rtp"
+	"github.com/suhwr/meowcaller/relay"
+	"github.com/suhwr/meowcaller/rtp"
 )
 
 // DefaultAudioReorderWindow is how long an audio packet that arrived ahead of a

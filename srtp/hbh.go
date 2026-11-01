@@ -5,7 +5,7 @@ import (
 	"encoding/binary"
 	"errors"
 
-	"github.com/purpshell/meowcaller/util"
+	"github.com/suhwr/meowcaller/util"
 	"github.com/rs/zerolog"
 )
 
