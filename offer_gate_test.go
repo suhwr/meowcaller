@@ -4,12 +4,12 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/polymorfa/hypermeow"
-	waBinary "github.com/polymorfa/hypermeow/binary"
-	"github.com/polymorfa/hypermeow/store"
-	"github.com/polymorfa/hypermeow/types"
-	"github.com/polymorfa/hypermeow/types/events"
-	waLog "github.com/polymorfa/hypermeow/util/log"
+	"go.mau.fi/whatsmeow"
+	waBinary "go.mau.fi/whatsmeow/binary"
+	"go.mau.fi/whatsmeow/store"
+	"go.mau.fi/whatsmeow/types"
+	"go.mau.fi/whatsmeow/types/events"
+	waLog "go.mau.fi/whatsmeow/util/log"
 )
 
 func gatedOfferEngine(gate func(Offer) bool) (*engine, *int) {

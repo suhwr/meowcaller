@@ -3,7 +3,7 @@ package meowcaller
 import (
 	"time"
 
-	"github.com/polymorfa/hypermeow/types"
+	"go.mau.fi/whatsmeow/types"
 
 	"github.com/suhwr/meowcaller/diag"
 	"github.com/rs/zerolog"

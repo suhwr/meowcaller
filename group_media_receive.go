@@ -10,7 +10,7 @@ import (
 	"github.com/suhwr/meowcaller/rtp"
 	"github.com/suhwr/meowcaller/srtp"
 	"github.com/rs/zerolog"
-	"github.com/polymorfa/hypermeow/types"
+	"go.mau.fi/whatsmeow/types"
 )
 
 type participantAudioDecoder interface {

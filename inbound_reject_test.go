@@ -3,8 +3,8 @@ package meowcaller
 import (
 	"testing"
 
-	"github.com/polymorfa/hypermeow/types"
-	"github.com/polymorfa/hypermeow/types/events"
+	"go.mau.fi/whatsmeow/types"
+	"go.mau.fi/whatsmeow/types/events"
 )
 
 // A <reject> on an inbound call is another device of the same account declining
